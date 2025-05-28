@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asmita Jethva | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Add this in your head section -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS with your public key
+        (function () {
+            emailjs.init('q39KwuBQxiJat2-w-'); // Replace with your actual EmailJS public key
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <a href="#" class="logo">AJ.</a>
+
+        <i class="fas fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Asmita Jethva</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Creative Web Developer with experience in building responsive websites and dynamic web applications using
+                modern technologies.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/asmita-jethva-620203245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/asmita-jethva-04" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:asmitajethva04.info@gmail.com?subject=Portfolio%20Inquiry"><i
+                        class="fas fa-envelope"></i></a>
+                <a href="tel:+918452024904"><i class="fas fa-phone"></i></a>
+            </div>
+            <a href="asmita_jethva.pdf" download class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="image/image.png" alt="Asmita Jethva">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/image.png" alt="Asmita Jethva">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading-about">About <span>Me</span></h2>
+            <h3>Web Designer & Developer</h3>
+            <p>I am a passionate web developer with expertise in both front-end and back-end technologies, dedicated to
+                creating efficient, scalable, and user-friendly web applications. With a strong foundation in computer
+                science and hands-on experience in modern web development frameworks, I bridge the gap between technical
+                implementation and business requirements.</p>
+            <p>Dedicated to creating impactful solutions through strategic problem-solving, user-centered design, and
+                optimized development processes. Experienced in building intuitive digital experiences with a focus on
+                functionality, aesthetics, and performance to drive measurable results.</p>
+            <div class="soft-skills">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Problem-solving mindset</li>
+                    <li><i class="fas fa-check-circle"></i> Time management</li>
+                    <li><i class="fas fa-check-circle"></i> Client communication</li>
+                    <li><i class="fas fa-check-circle"></i> Team collaboration</li>
+                    <li><i class="fas fa-check-circle"></i> Quick learner</li>
+                    <li><i class="fas fa-check-circle"></i> Strong attention to detail</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Building responsive and dynamic websites using modern web technologies with focus on performance,
+                    accessibility, and SEO optimization.</p>
+            </div>
+
+            <div class="skills-box">
+                <i class="fas fa-paint-brush"></i>
+                <h3>UI/UX Design</h3>
+                <p>Creating intuitive and visually appealing user interfaces with Figma and Canva, focusing on user
+                    experience and design principles.</p>
+            </div>
+
+            <div class="skills-box">
+                <i class="fas fa-server"></i>
+                <h3>Backend Development</h3>
+                <p>Developing server-side logic, database architecture, and API integrations using PHP, Laravel, and
+                    MySQL.</p>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <h3>Technologies I Work With</h3>
+            <div class="tech-icons">
+                <div class="tech-icon" data-tooltip="HTML5">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="tech-icon" data-tooltip="CSS3">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="tech-icon" data-tooltip="JavaScript">
+                    <i class="fab fa-js"></i>
+                </div>
+                <div class="tech-icon" data-tooltip="PHP">
+                    <i class="fab fa-php"></i>
+                </div>
+                <div class="tech-icon" data-tooltip="Laravel">
+                    <i class="fab fa-laravel"></i>
+                </div>
+                <div class="tech-icon" data-tooltip="WordPress">
+                    <i class="fab fa-wordpress"></i>
+                </div>
+                <div class="tech-icon" data-tooltip="Bootstrap">
+                    <i class="fab fa-bootstrap"></i>
+                </div>
+                <div class="tech-icon" data-tooltip="MySQL">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="tech-icon" data-tooltip="Git">
+                    <i class="fab fa-git-alt"></i>
+                </div>
+                <div class="tech-icon" data-tooltip="Figma">
+                    <i class="fab fa-figma"></i>
+                </div>
+                <div class="tech-icon" data-tooltip="Canva">
+                    <i class="fas fa-palette"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <h2 class="heading">My <span>Experience</span></h2>
+
+        <div class="experience-container">
+            <div class="experience-box">
+                <div class="experience-content">
+                    <div class="content">
+                        <div class="year"><i class="fas fa-calendar"></i> 2024 - Present</div>
+                        <h3>Web Developer - Mididm Infoway</h3>
+                        <ul>
+                            <li>Lead a development team in designing and implementing custom web solutions that drive
+                                client business growth and align with user needs</li>
+                            <li>Mentor junior developers through code reviews, pair programming, and technical training
+                                sessions</li>
+                            <li>Develop comprehensive training materials and conduct workshops on modern web development
+                                practices</li>
+                            <li>Oversee project timelines and coordinate cross-functional collaboration between design,
+                                development, and QA teams</li>
+                            <li>Establish and enforce coding standards and best practices across all development
+                                projects</li>
+                            <li>Serve as primary technical consultant for clients, translating business requirements
+                                into technical specifications and functional requirements</li>
+                            <li>Architect responsive, accessible web applications with a focus on performance
+                                optimization, scalability, and conversion optimization</li>
+                            <li>Implement data-driven SEO strategies and best practices that improved client search
+                                rankings by an average of 40%</li>
+                            <li>Conduct performance audits and lead optimization initiatives that reduced page load
+                                times by 30%</li>
+                            <li>Develop documentation and training programs to empower clients in managing their digital
+                                properties and content management systems</li>
+                            <li>Facilitate knowledge sharing sessions to elevate team capabilities in emerging web
+                                technologies</li>
+                            <li>Lead full-cycle development projects from initial concept through deployment and
+                                maintenance</li>
+                            <li>Collaborate with cross-functional teams to ensure design integrity and technical
+                                feasibility</li>
+                            <li>Maintain and update existing codebases with security patches and feature enhancements
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <!-- Project 1 - Nilkanth Agri Impex -->
+            <div class="portfolio-box">
+                <img src="project-images/nilknathagri.webp" alt="Nilkanth Agri Impex Website" loading="lazy">
+                <div class="portfolio-layer">
+                    <div class="project-logo">
+                        <h4>Nilkanth Agri Impex</h4>
+                    </div>
+                    <p>Industrial product website with responsive design</p>
+                    <a href="https://nilkanthimpex.com" target="_blank"
+                        aria-label="Visit Nilkanth Agri Impex website"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 2 - Prayas Physiotherapy -->
+            <div class="portfolio-box">
+                <img src="project-images/prayas-physio.jpg" alt="Prayas Physiotherapy Website" loading="lazy">
+                <div class="portfolio-layer">
+                    <div class="project-logo">
+                        <h4>Prayas Physiotherapy</h4>
+                    </div>
+                    <p>Healthcare website with appointment booking</p>
+                    <a href="https://prayasphysio.com" target="_blank"
+                        aria-label="Visit Prayas Physiotherapy website"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 3 - Blue Touch Granito -->
+            <div class="portfolio-box">
+                <img src="project-images/bluetouch-granito.webp" alt="Blue Touch Granito Website" loading="lazy">
+                <div class="portfolio-layer">
+                    <div class="project-logo">
+                        <h4>Blue Touch Granito</h4>
+                    </div>
+                    <p>Product catalog with MySQL database</p>
+                    <a href="https://bluetouchgranito.com" target="_blank"
+                        aria-label="Visit Blue Touch Granito website"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 4 - Sunpluscera -->
+            <div class="portfolio-box">
+                <img src="project-images/sunplus-cera.svg" alt="Sunpluscera Website" loading="lazy">
+                <div class="portfolio-layer">
+                    <div class="project-logo">
+                        <h4>Sunpluscera</h4>
+                    </div>
+                    <p>WordPress product showcase with SEO</p>
+                    <a href="https://sunpluscera.com" target="_blank" aria-label="Visit Sunpluscera website"><i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 5 - Sparkle Ceramic -->
+            <div class="portfolio-box">
+                <img src="project-images/sparkle.svg" alt="Sparkle Ceramic Website" loading="lazy">
+                <div class="portfolio-layer">
+                    <div class="project-logo">
+                        <h4>Sparkle Ceramic</h4>
+                    </div>
+                    <p>Ceramic products showcase with responsive design</p>
+                    <a href="https://sparkleceramic.com/" target="_blank" aria-label="Visit Sparkle Ceramic website"><i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 6 - Ruchit Enterprise -->
+            <div class="portfolio-box">
+                <img src="project-images/ruchit.png" alt="Ruchit Enterprise Website" loading="lazy">
+                <div class="portfolio-layer">
+                    <div class="project-logo">
+                        <h4>Ruchit Enterprise</h4>
+                    </div>
+                    <p>Business website for marble and granite supplier</p>
+                    <a href="https://ruchitenterprise.com/" target="_blank"
+                        aria-label="Visit Ruchit Enterprise website"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="education-container">
+            <div class="education-timeline">
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class="fas fa-calendar"></i> 2023 - Present</div>
+                        <h3>Master of Science in IT</h3>
+                        <p>Saurashtra University</p>
+                        <p>Harivandana College</p>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class="fas fa-calendar"></i> 2020 - 2023</div>
+                        <h3>Bachelor of Science in IT</h3>
+                        <p>Saurashtra University</p>
+                        <p>CGPA: 8.97 | SGPA: 9.83</p>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class="fas fa-calendar"></i> 2018 - 2020</div>
+                        <h3>12th (Commerce)</h3>
+                        <p>N.L College</p>
+                        <p>Percentage: 72.50%</p>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class="fas fa-calendar"></i> 2018</div>
+                        <h3>10th (SSC)</h3>
+                        <p>Navjivan Vidhyalay Highschool, Mumbai</p>
+                        <p>Percentage: 83.60%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+
+        <form id="contact-form">
+            <div class="input-box">
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <input type="text" id="phone" name="phone" placeholder="Mobile Number">
+                <input type="text" id="subject" name="subject" placeholder="Email Subject" required>
+            </div>
+
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn" id="submit-btn">Send Message</button>
+        </form>
+
+        <div id="form-message" class="form-message"></div>
+
+        <div class="contact-info">
+            <div class="info-box">
+                <i class="fas fa-envelope"></i>
+                <div class="info-text">
+                    <h4>Email</h4>
+                    <p>asmitajethva04.info@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fas fa-phone"></i>
+                <div class="info-text">
+                    <h4>Phone</h4>
+                    <p>+91 84520 24904</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info-text">
+                    <h4>Location</h4>
+                    <p>Kastha Bhanjan Street No - 2, Near Lakhno Banglow, Ramapir Chowk, Rajkot</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Asmita Jethva | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+    <!-- Add this after the EmailJS script in your head section -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</body>
+
+</html>
